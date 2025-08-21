@@ -10,9 +10,10 @@ dir_path = "/tmp/ldk-server/"                 # Path for LDK and BDK data persis
 
 # Bitcoin Core settings
 [bitcoind]
-rpc_address = "127.0.0.1:18444"               # RPC endpoint
-rpc_user = "polaruser"                        # RPC username
-rpc_password = "polarpass"                    # RPC password
+rpc_host = "127.0.0.1"                         # RPC host
+rpc_port = 18444                               # RPC port
+rpc_user = "polaruser"                         # RPC username
+rpc_password = "polarpass"                     # RPC password
 
 # RabbitMQ settings (only required if using events-rabbitmq feature)
 [rabbitmq]
